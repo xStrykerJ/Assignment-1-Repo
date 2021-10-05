@@ -1,0 +1,33 @@
+/* custom css goes here*/
+
+footer {
+    padding-top : 100px;
+}
+
+.img-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body{
+    background: rgb(68, 65, 65);
+}
+
+.container{
+    background-color: rgb(68, 65, 65);
+}
+
+.alt{
+    background-color: rgb(255, 255, 255);
+}
+
+.float-left{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.float-right{
+    margin-right: auto;
+    margin-left: auto;
+}

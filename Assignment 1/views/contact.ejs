@@ -1,0 +1,122 @@
+<%- include partials/header.ejs%> 
+<%- include partials/main_nav.ejs %>
+
+<!--Contact-->
+<body>
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item">
+            <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. 
+                                                    In the meantime, you can also fill this form to submit directly to me.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form action="/home">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="firstname" class=""><b>First Name</b></label>
+                            <input type="text" id="firstname" name="firstname" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="lastname" class=""><b>Last Name</b></label>
+                            <input type="text" id="lastname" name="lastname" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class=""><b>Your Email</b></label>
+                            <input type="text" id="email" name="email" class="form-control">    
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0"> 
+                            <label for="subject" class=""><b>Subject</b></label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message"><b>Your Message</b></label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+            <div class="text-center text-md-left">
+                <br/>
+                <button class="btn btn-dark btn-sm" type="submit" name="submit">Submit</button>
+            </div>
+            </form>
+
+            
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Ajax, Ontario, Canada</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>647-622-5859</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>josefsigno@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+        </li>
+    </ul>
+    
+</div>
+</body>
+
+<%- include partials/bottom_nav.ejs %> 
+<%- include partials/footer.ejs %> 
